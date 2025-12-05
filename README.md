@@ -258,5 +258,6 @@ Contributions welcome! See [CONTRIBUTING.md](docs/contributing.md) for details.
 
 ## Credits
 
-Built with ❤️ by the Memlyze team
+Built with ❤️ by RAR
+
 
