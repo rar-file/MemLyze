@@ -6,7 +6,7 @@ Thank you for your interest in contributing to Memlyze!
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/Memlyze.git
+git clone https://github.com/rar-file/Memlyze.git
 cd Memlyze
 
 # Install in development mode
@@ -123,4 +123,5 @@ Be respectful, inclusive, and constructive. We're building this together!
 Open a discussion or reach out to maintainers.
 
 Thank you for contributing! 🎉
+
 
