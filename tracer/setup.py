@@ -19,7 +19,7 @@ setup(
     description="Visual memory profiler with <5% overhead",
     long_description=read_file("../README.md") if os.path.exists("../README.md") else "",
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/memlyze",
+    url="https://github.com/rarfile/memlyze",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
