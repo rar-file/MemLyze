@@ -1,4 +1,4 @@
-# 🔍 Memlyze
+# Memlyze
 
 <div align="center">
 
@@ -14,28 +14,24 @@
 
 ---
 
-## ✨ Why Memlyze?
+## Why Memlyze?
 
 <table>
 <tr>
-<td align="center">📊</td>
 <td><b>Visual Timeline</b><br/>Scrub through time, see when leaks started</td>
 </tr>
 <tr>
-<td align="center">⚡</td>
 <td><b>Fast</b><br/>&lt;5% overhead, handles millions of allocations</td>
 </tr>
 <tr>
-<td align="center">🎯</td>
 <td><b>Interactive</b><br/>Click any spike → see exact code location</td>
 </tr>
 <tr>
-<td align="center">🧠</td>
 <td><b>Smart</b><br/>Finds reference chains, detects leaks automatically</td>
 </tr>
 </table>
 
-## 📊 Compared to Alternatives
+## Compared to Alternatives
 
 <table>
 <thead>
@@ -79,33 +75,24 @@
 </tbody>
 </table>
 
-## 🚀 Quick Start
+## Quick Start
 
-<table>
-<tr>
-<td width="50px" align="center">1️⃣</td>
-<td>
-<b>Install</b>
-<pre lang="bash">pip install -e tracer/</pre>
-</td>
-</tr>
-<tr>
-<td align="center">2️⃣</td>
-<td>
-<b>Record a trace</b>
-<pre lang="bash">Memlyze record python your_app.py</pre>
-</td>
-</tr>
-<tr>
-<td align="center">3️⃣</td>
-<td>
-<b>Analyze</b> <i>(Phase 2 - coming soon)</i>
-<pre lang="bash">Memlyze serve trace\.mlyze</pre>
-</td>
-</tr>
-</table>
+**1. Install**
+```bash
+pip install -e tracer/
+```
 
-## 💻 Example Usage
+**2. Record a trace**
+```bash
+memlyze record python your_app.py
+```
+
+**3. Analyze**
+```bash
+memlyze analyze trace.mlyze
+```
+
+## Example Usage
 
 <table>
 <tr>
@@ -154,7 +141,7 @@ Memlyze record \
 </tr>
 </table>
 
-## 📋 Project Status
+## Project Status
 
 <table>
 <tr>
@@ -219,32 +206,28 @@ Memlyze/
 - [Performance Tuning](docs/performance.md)
 - [Contributing](docs/contributing.md)
 
-## ⚡ Performance Targets
+## Performance Targets
 
 <table>
 <tr>
-<td align="center">🎯</td>
 <td><b>CPU Overhead</b></td>
 <td><code>&lt;5%</code></td>
 <td>Fast enough for production</td>
 </tr>
 <tr>
-<td align="center">💾</td>
 <td><b>Memory Overhead</b></td>
 <td><code>&lt;100MB</code></td>
 <td>For 1M allocations</td>
 </tr>
 <tr>
-<td align="center">📦</td>
 <td><b>Trace File Size</b></td>
 <td><code>&lt;1MB</code></td>
 <td>Per 100k allocations (compressed)</td>
 </tr>
 <tr>
-<td align="center">⚡</td>
 <td><b>Analysis Speed</b></td>
 <td><code>&lt;1 second</code></td>
-<td>Process 1M allocations (Phase 2)</td>
+<td>Process 1M allocations</td>
 </tr>
 </table>
 
@@ -259,5 +242,4 @@ Contributions welcome! See [CONTRIBUTING.md](docs/contributing.md) for details.
 ## Credits
 
 Built with ❤️ by RAR
-
 
